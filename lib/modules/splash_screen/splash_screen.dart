@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:theparkingdeals/core/constants/route.dart'; // Import the route constants
+import 'package:theparkingdeals/core/theme_data/color_theme.dart';
+import 'package:theparkingdeals/routes/route.dart'; // Import the route constants
 
 class SplashScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFF1A237E), // Dark Blue background color
+      backgroundColor: background, // Dark Blue background color
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
@@ -39,11 +40,10 @@ class SplashScreen extends StatelessWidget {
               height: 60,
               child: ElevatedButton(
                 onPressed: () {
-                  // Navigate to the SignIn screen using route constant
                   Navigator.pushNamed(context, AppRoutes.signIn);
                 },
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: const Color(0xFF8E24AA), // Purple color for the button
+                  backgroundColor: surfaceDefault, 
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(30.0),
                   ),
