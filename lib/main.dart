@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:theparkingdeals/core/constants/route.dart'; 
+import 'package:theparkingdeals/routes/route.dart'; 
 
 void main() {
   runApp(MyApp());

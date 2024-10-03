@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:theparkingdeals/core/constants/route.dart';
+import 'package:theparkingdeals/routes/route.dart';
 import 'package:theparkingdeals/core/theme_data/color_theme.dart';
 
 class SignInScreen extends StatefulWidget {
@@ -16,7 +16,7 @@ class _SignInScreenState extends State<SignInScreen> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        backgroundColor: AppColors.primaryColor,
+        backgroundColor: background,
         body: SingleChildScrollView(  
           child: Column(
             children: [
@@ -158,7 +158,7 @@ class _SignInScreenState extends State<SignInScreen> {
                           // Action for sign in
                         },
                         style: ElevatedButton.styleFrom(
-                          backgroundColor: AppColors.buttonColor,
+                          backgroundColor: background,
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(30.0),
                           ),
