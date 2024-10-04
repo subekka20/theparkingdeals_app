@@ -6,7 +6,7 @@ var textTheme = TextTheme(
     fontSize: 26,
     fontWeight: FontWeight.w600,
     color: const Color(0xFF1E1E20),
-  ), 
+  ), // Max font size 28, weight 600
 
   headlineMedium: GoogleFonts.montserrat(
     fontSize: 24,
