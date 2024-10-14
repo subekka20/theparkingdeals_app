@@ -24,3 +24,7 @@ flutter:
   uses-material-design: true
   assets:
     - assets/images/logo192.png
+    - assets/icons/chevron-left.svg
+    - assets/icons/menu-01.svg
+    - assets/icons/edit_pen.svg
+    - assets/icons/Filter.svg
