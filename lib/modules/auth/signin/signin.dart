@@ -165,7 +165,7 @@ class _SignInScreenState extends State<SignInScreen> {
                     child: CustomButton(
                       label: "Sign In",
                       onPressed: () {
-                         Navigator.pushNamed(context, AppRoutes.myBooking);
+                         Navigator.pushNamed(context, AppRoutes.getQuote);
                       },
                       backgroundColor: background,
                       fontSize: 20,

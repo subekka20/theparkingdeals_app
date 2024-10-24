@@ -41,7 +41,7 @@ class _MyBookingScreenState extends State<MyBookingScreen> {
         leading: IconButton(
           icon: const Icon(Icons.arrow_back, color: textTitle),
           onPressed: () {
-            
+            Navigator.pop(context, '/moreScreen');
           },
         ),
         title: const Text(

@@ -273,7 +273,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                         child: CustomButton(
                           label: "Sign Up",
                           onPressed: () {
-                            Navigator.pushNamed(context, AppRoutes.myProfile);
+                            Navigator.pushNamed(context, AppRoutes.getQuote);
                           },
                           backgroundColor: background,
                           fontSize: 20,
