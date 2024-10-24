@@ -13,17 +13,14 @@ class _MyProfileScreenState extends State<MyProfileScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back, color: textTitle),
+          onPressed: () {
+            Navigator.of(context).pop('/moreScreen');
+          },
+        ),
         automaticallyImplyLeading: false,
         backgroundColor: surfaceSubtitle,
-        actions: [
-          IconButton(
-            icon: const Icon(Icons.settings),
-            color: textTitle,
-            onPressed: () {
-              // Add your onPressed function here
-            },
-          ),
-        ],
         title: const Text(
           'Profile',
           style: TextStyle(
@@ -153,6 +150,7 @@ class _MyProfileScreenState extends State<MyProfileScreen> {
                       ),
                     ],
                   ),
+                // const  DateTimeCard(),
                 ],
               ),
             ),

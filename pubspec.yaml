@@ -12,6 +12,8 @@ dependencies:
     sdk: flutter
   flutter_svg: ^2.0.10+1
   google_fonts: ^6.2.1
+  intl: ^0.17.0
+  time: ^2.1.4
 
   cupertino_icons: ^1.0.8
 
@@ -23,8 +25,5 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/images/logo192.png
-    - assets/icons/chevron-left.svg
-    - assets/icons/menu-01.svg
-    - assets/icons/edit_pen.svg
-    - assets/icons/Filter.svg
+    - assets/icons/
+    - assets/images/
