@@ -25,7 +25,7 @@ class _SignInScreenState extends State<SignInScreen> {
               child: Column(
                 children: [
                   Container(
-                    padding: const EdgeInsets.only(top: 90),
+                    padding: const EdgeInsets.only(top: 170),
                     child: Center(
                       child: Column(
                         mainAxisSize: MainAxisSize.min,
@@ -39,15 +39,15 @@ class _SignInScreenState extends State<SignInScreen> {
                           Text(
                             "The Parking Deals",
                             style: textTheme.headlineLarge?.copyWith(
-                                color: textHeading,
-                                fontWeight: FontWeight.w500,
-                                fontSize: 28),
+                                color: surfaceDisabled, fontSize: 36),
                           ),
                         ],
                       ),
                     ),
                   ),
-                  const SizedBox(height: 30),
+                  // const SizedBox(height: 30),
+                const SizedBox(height: 100),
+
                 ],
               ),
             ),
@@ -72,21 +72,22 @@ class _SignInScreenState extends State<SignInScreen> {
                 ),
                 const SizedBox(height: 20),
                 RichText(
-                        text: TextSpan(
-                          text: 'Email ',
-                          style: textTheme.headlineSmall?.copyWith(color: surfaceDarker),
-                          children: const [
-                            TextSpan(
-                              text: '*',
-                              style: TextStyle(color: primaryDefault), 
-                            ),
-                          ],
-                        ),
+                  text: TextSpan(
+                    text: 'Email ',
+                    style:
+                        textTheme.headlineSmall?.copyWith(color: surfaceDarker),
+                    children: const [
+                      TextSpan(
+                        text: '*',
+                        style: TextStyle(color: primaryDefault),
                       ),
+                    ],
+                  ),
+                ),
                 const SizedBox(height: 8),
                 TextFormField(
                   decoration: InputDecoration(
-                  hintText: "admin@gmail.com",
+                    hintText: "admin@gmail.com",
                     filled: true,
                     fillColor: Colors.white,
                     border: OutlineInputBorder(
@@ -96,17 +97,18 @@ class _SignInScreenState extends State<SignInScreen> {
                 ),
                 const SizedBox(height: 20),
                 RichText(
-                        text: TextSpan(
-                          text: 'Password ',
-                          style: textTheme.headlineSmall?.copyWith(color: surfaceDarker),
-                          children: const [
-                            TextSpan(
-                              text: '*',
-                              style: TextStyle(color: primaryDefault), 
-                            ),
-                          ],
-                        ),
+                  text: TextSpan(
+                    text: 'Password ',
+                    style:
+                        textTheme.headlineSmall?.copyWith(color: surfaceDarker),
+                    children: const [
+                      TextSpan(
+                        text: '*',
+                        style: TextStyle(color: primaryDefault),
                       ),
+                    ],
+                  ),
+                ),
                 const SizedBox(height: 8),
                 TextFormField(
                   obscureText: _obscurePassword,
@@ -165,7 +167,7 @@ class _SignInScreenState extends State<SignInScreen> {
                     child: CustomButton(
                       label: "Sign In",
                       onPressed: () {
-                         Navigator.pushNamed(context, AppRoutes.getQuote);
+                        Navigator.pushNamed(context, AppRoutes.getQuote);
                       },
                       backgroundColor: background,
                       fontSize: 20,

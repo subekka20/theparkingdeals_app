@@ -27,7 +27,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
             child: Column(
               children: [
                 Container(
-                  padding: const EdgeInsets.only(top: 100),
+                  padding: const EdgeInsets.only(top: 170),
                   child: Center(
                     child: Column(
                       mainAxisSize: MainAxisSize.min,
@@ -45,11 +45,11 @@ class _SignUpScreenState extends State<SignUpScreen> {
                               fontWeight: FontWeight.w500,
                               fontSize: 28),
                         ),
+                const SizedBox(height: 100),
                       ],
                     ),
                   ),
                 ),
-                const SizedBox(height: 112),
                 Container(
                   padding: const EdgeInsets.all(16.0),
                   decoration: const BoxDecoration(

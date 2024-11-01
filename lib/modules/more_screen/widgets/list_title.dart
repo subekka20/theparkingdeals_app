@@ -5,7 +5,7 @@ import 'package:theparkingdeals/core/theme_data/text_theme.dart';
 
 class ListTiles extends StatefulWidget {
   final bool? divider;
-  final String ? iconPath;
+  final String? iconPath;
   final String name;
   final VoidCallback onTap;
 
@@ -41,7 +41,7 @@ class _ListTilesState extends State<ListTiles> {
             children: [
               Row(
                 children: [
-                   // Check if iconPath is provided, if null display an empty container
+                  // Check if iconPath is provided, if null display an empty container
                   if (widget.iconPath != null)
                     SvgPicture.asset(
                       widget.iconPath!,
@@ -49,7 +49,7 @@ class _ListTilesState extends State<ListTiles> {
                       height: 24,
                     )
                   else
-                  const SizedBox(width: 16),
+                    const SizedBox(width: 20),
                   // Text style for the label
                   Text(
                     widget.name,
