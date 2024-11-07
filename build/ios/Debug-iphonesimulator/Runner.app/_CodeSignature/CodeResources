@@ -46,7 +46,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		MuhwuhPhqpv6tuhoLC5qxegO6FI=
+		+7ulOSLMg8ElCG4G/18DZS2dVKc=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		PtlckIvgh++AynBMJprgR1K7CaE=
+		/2GjlUyYFe1ShhWsQLCzToqjpRQ=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/NOTICES.Z</key>
 		<data>
-		axzdC0JXHLhahp7YKP1bZ7F3OjY=
+		hIFO/blN6yNmgI4W8mCJWOel5Mk=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/icons/Box.svg</key>
 		<data>
@@ -178,7 +178,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		rg/Bho8VzQcBRY74sAEjamEfqkM=
+		VwK+9vHN8LMNdp1XU23G/2g8jgk=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -300,6 +300,26 @@
 		<data>
 		/LX0ZlwxwIAIhjZaDB8EiH5KpXA=
 		</data>
+		<key>Frameworks/url_launcher_ios.framework/Info.plist</key>
+		<data>
+		PUl7WKc+NLIB94LxMhjclsSLULk=
+		</data>
+		<key>Frameworks/url_launcher_ios.framework/_CodeSignature/CodeResources</key>
+		<data>
+		Cuk6ouACqX/yWWoMEcXvyMyADHY=
+		</data>
+		<key>Frameworks/url_launcher_ios.framework/url_launcher_ios</key>
+		<data>
+		8B/UbdoGiHt/Qn+5wKaMva9LNd8=
+		</data>
+		<key>Frameworks/url_launcher_ios.framework/url_launcher_ios_privacy.bundle/Info.plist</key>
+		<data>
+		csw1lEoYotVgKpa7b8f5UJ9DEac=
+		</data>
+		<key>Frameworks/url_launcher_ios.framework/url_launcher_ios_privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		/LX0ZlwxwIAIhjZaDB8EiH5KpXA=
+		</data>
 		<key>Info.plist</key>
 		<data>
 		eeGi6gv/BIBKd8W7F9RS2TQBTw0=
@@ -310,7 +330,7 @@
 		</data>
 		<key>Runner.debug.dylib</key>
 		<data>
-		YDqUYqyhLTjiSNm6T1DHiubLpnI=
+		9eqwLkp4IvuXOc4wR15C+camyxU=
 		</data>
 		<key>__preview.dylib</key>
 		<data>
@@ -393,7 +413,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/Re+ZSkMzQlcQl9w2dHF4VdXP/kaMV46FiE8o7StFaw=
+			bKx3KidrKPKIL11wyhOuli1eZMGRrrDgS2m/SYD19Kw=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -407,7 +427,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6BbL6d8KeMZRUcZhK7pEc8Sx3Bn0ZcPpotp+A5xn0Y4=
+			AA1HE4xfMkDYz9G/cSuKiarTqvx8ajGOqUh826UkXcs=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
@@ -435,7 +455,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zHNlXGE7W5qhCYlFaXH516l6u4i19NtzH4wBEkQKi9Y=
+			Xu4mYg2rBpTMywsN5dzG6M1cp1uGgPlD7iuJ6x+DaGw=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/icons/Box.svg</key>
@@ -624,7 +644,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aSmCzgPo6DfJcdAuOEKgjqUI9UJWIxskVn32byUb/H8=
+			PPYFvFoK0FdPNTieu/Wi6NfsQcYxcyaehNL+Zht1xYg=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -837,11 +857,46 @@
 			bS2g2NkwIn1CjB2TY7CtbjoS4sm2jFzilxWKdBL8jDE=
 			</data>
 		</dict>
+		<key>Frameworks/url_launcher_ios.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yFKf9XAWAymY8Ccm/I/+LXBs1fLal3Fialw6TaDV7RE=
+			</data>
+		</dict>
+		<key>Frameworks/url_launcher_ios.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			m8If4KD2OE+1wDSOrzLlboEURLVecnUukGKn7SKP5Kw=
+			</data>
+		</dict>
+		<key>Frameworks/url_launcher_ios.framework/url_launcher_ios</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			v1efFtb76NprVZ4nEwVEnFjcjyzPiNnhC0DfbF+cii8=
+			</data>
+		</dict>
+		<key>Frameworks/url_launcher_ios.framework/url_launcher_ios_privacy.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8HV6lm7ZnWQoviF7LNwLDLZh+OovQ0ounpvjPPNqByo=
+			</data>
+		</dict>
+		<key>Frameworks/url_launcher_ios.framework/url_launcher_ios_privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bS2g2NkwIn1CjB2TY7CtbjoS4sm2jFzilxWKdBL8jDE=
+			</data>
+		</dict>
 		<key>Runner.debug.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RidUXcVXV0KpW/gbmX9v9JCKWLxYofpS8IVWubolKiI=
+			WY3niTIWyovpBogHeeqfq9x8NE01MVkJ8INApoVVxUo=
 			</data>
 		</dict>
 		<key>__preview.dylib</key>
