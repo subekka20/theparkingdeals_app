@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-const Color background = Color(0xFF302e7c); // blue
+const Color background = Color(0xFF3b398c); // blue
 const Color surfaceSubtitle = Color(0xFFE0E0E0);
-const Color surfaceDefault = Color(0xFFd12788); // button color
+const Color surfaceDefault = Color(0xFFcd2a83); // button color
 const Color surfaceDisabled = Color(0xFFf3f3ff); // grey30
 const Color surfaceDarker = Color(0xFF374151); // grey80
 
