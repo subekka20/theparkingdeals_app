@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:theparkingdeals/modules/auth/signin/signin.dart';
-import 'package:theparkingdeals/modules/auth/signup/signup.dart';
+import 'package:theparkingdeals/modules/auth/signup/presenters/widgets/signup.dart';
 import 'package:theparkingdeals/modules/booking_overview/presenters/booking_view.dart';
 import 'package:theparkingdeals/modules/booking_overview/presenters/overview_screen.dart';
 import 'package:theparkingdeals/modules/booking_overview/presenters/reviews/empty_review.dart';
